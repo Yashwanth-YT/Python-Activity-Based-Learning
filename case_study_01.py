@@ -14,7 +14,6 @@ else:
     if attendance_percentage >= 75.0:
         print("Status: Eligible (Attendance is already 75% or more)")
     else:
-        # Simple loop: keep adding 1 class until attendance reaches 75%
         classes_needed = 0
         new_attended = classes_attended
         new_total = total_classes
